@@ -1,0 +1,82 @@
+/*tarjeta batman*/
+
+.t13 {
+    background-image: url("../img/fondobat.png");
+    display: inline-block;
+    height: 193px;
+    width: cover;
+    width: 300px;
+}
+
+#tar3 {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 700px;  
+
+}
+
+/*tarjeta hq*/
+
+.t2 {
+    background-image: url("../img/fondohq.png");
+    display: inline-block;
+    height: 193px;
+    width: cover;
+    width: 300px;
+}
+#tar2 {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 350px;  
+
+}
+
+/*comunes a todas las tarjetas*/
+/*se podría poner una sola clase a las tarjetas y usar margin, ver cómo sería*/
+
+.cora{
+    position:relative;
+    bottom: 90px;
+    left: 10px;
+    padding: 0px;
+    margin: 0px;
+    width: 20px; 
+    height: 20px;
+}
+
+.foto{
+    border-radius: 50%;
+    position: relative;
+    top: 120px;
+    left:65px;
+}
+
+.tex{
+    width: 280px;
+    text-align: justify;
+    position: relative;
+    top: 30px;
+}
+
+.fot {
+    background-color: blue;
+    display: inline-block;
+    height: 50x;
+    width: 80px;
+    color: white;
+    position:relative;
+    top: 60px;
+    left: 85px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+a:visited {text-decoration: none; 
+color: white
+}
+
+
+

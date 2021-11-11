@@ -1,0 +1,82 @@
+/*estilos para el nav inicial*/
+#inicio1 {
+    background-color: #222222;
+    color: white;
+    padding: 10px
+}
+#inicio2 {
+    background-color: #F0A83E;
+    color: white;
+    padding: 40px
+}
+
+/*estilos imagen principal*/
+#img_principal {
+    background-image:url('../img/bowlbackground.png');
+    background-size: cover;
+    height: 700px;}
+#t1 {
+    background-color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align:center}
+
+#t2 {
+    text-align:center}
+#t3 {
+    background-color:#F0A83E ;
+    font-weight:bold; 
+    font-size: 16px;
+    padding: 10px;
+    margin: 45%}
+/*estilos de las tarjetas de productos*/
+#t4 {
+    text-align:center;
+    color:#3C2313;
+    font-size: 40px;
+    font-weight:bold; }
+.prod {
+    font-style: medium;
+    font-weight:bold;     
+    font-size: 15px}
+
+.precio {
+    color:#F0A83E ;
+    font-weight:bold; 
+    font-size: 16px}
+
+/*estilo contacto*/
+#t5 {color:#3C2313;
+    text-align:center;
+    font-weight:bold; 
+    font-size: 25px;
+}
+
+#form1 {margin: 50%}
+#fin{background-color: #F0A83E;
+    color: white;
+    padding: 40px
+}
+/*estilo footer*/
+.icon-cog { color:#8A8787}
+.t6 {color: white;
+    font-weight:bold; 
+    font-size: 20px;
+}
+.t7 {color: #8A8787;
+    font-weight:bold; 
+    font-size: 10px;
+}
+#foot {
+    background-color: #222222;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+body {font-family: 'Roboto', sans-serif
+}
+footer{background-color: #3C2313;}
+
+a:visited { 
+    text-decoration: none; 
+    color: white }
