@@ -1,0 +1,375 @@
+/********** BODY **********/
+* { box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: sans-serif
+}
+
+body{
+    font-family: Roboto;
+    width: 100%;
+}
+
+
+/********** HEADER **********/
+header {
+    display: flex;
+    flex-direction: column;
+    color: #F3F3F3;
+    font-size: 14px;
+}
+
+
+#inicioC, #inicioC__nav {
+    display: none;
+    }
+
+header nav{
+    background-color:  #F0A83E;
+    color:  #F3F3F3;
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+  
+}
+
+/********** IMG PRINCIPAL **********/
+#img_principal{
+    background-image: url('../img/bowlbackground.png');
+    background-size: cover;
+    color: #3C2313;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 30px 15px;
+}
+
+#tit_imgp{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#text_imgp{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+button{
+    background-color: #F0A83E;
+    border-radius: 5px;
+    border-style: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#productos_destacados {
+    background-color: #FFFFFF;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 10px 15px;  
+}
+
+#productos_destacados span{
+    font-size: 32px;
+    color: #F0A83E;
+}
+
+h1{
+    color: #3C2313;
+    font-size: 40px;
+}
+
+#productos_destacados div{
+    display: flex;
+    justify-content: space-around;
+    padding:50px 5px ;
+}
+
+#productos_destacados a{
+    color: #666666;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#productos_destacados a:visited{
+    color: #666666;
+}
+
+/************* TARJETAS-CARDS ************/
+
+.tarjetas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    align-items: center;
+    background-color: #FBFAF6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    max-width: 300px;
+}
+
+.producto_card{
+    color: #3C2313;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.precio_card{
+    color: #F0A83E;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+/************* CONTACTO ************/
+
+#contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    justify-content: space-around;
+    height: 300px;
+
+}
+
+#tit_contacto {
+  font-size: 40px;
+  padding: 30px;
+}
+
+.form_contacto{
+    background-color:  #3C2313;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    font-family: sans-serif;
+    margin: 5px;
+    padding: 10px; 
+    width: 500px;  
+}
+
+/********** SUSCRIPCION ********/
+#suscripcion {
+    background-color:  #F0A83E;
+    color:  #F3F3F3;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boton_suscripcion {
+    background-color:  #3C2313;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    font-family: sans-serif;
+    margin: 5px;
+    padding: 10px; 
+}
+
+.placeholder_suscripcion {
+    background-color: white ;
+    color: grey;
+    font-family: sans-serif;
+    margin: 5px;
+    padding: 10px; 
+    border-radius: 10px;
+    border-style: none;
+    width: 30vw;
+}
+
+.button_reset_contacto{
+    background-color:  grey;
+    color: white;
+    border-radius: 40px;
+    border-style: none;
+    font-family: sans-serif;
+    margin: 5px;
+    padding: 15px 30px; 
+    font-size: 16px;
+}
+
+.button_submit_contacto{
+    background-color: #F0A83E ;
+    border-radius: 40px;
+    border-style: none;
+    color: white;
+    font-family: sans-serif;
+    margin: 5px;
+    padding: 15px 30px;
+    font-size: 16px;
+}
+/*********** FOOTER **********/
+
+footer{
+    background-color:   #3C2313;
+    color:  #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ #footer2{
+    display: flex;
+    justify-content: space-between;
+} 
+
+#logo_fin {
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+
+
+.informacion{
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   }
+
+.item_informacion {
+    display: flex;
+    justify-content: flex-start;
+    padding: 25px ;
+}
+
+.det_item_informacion {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.img_item_informacion{
+    padding: 20px;
+    padding-right: 5px;
+}
+
+.tit_informacion{
+    font-size: 20px;
+    font-weight: 500;
+}
+.desc_informacion{
+    font-size: 12px;
+    font-weight: 500;
+    color: #8A8787;
+}
+
+.copyright{
+    background-color: black;
+    border-style: none;
+    color: #F3F3F3;
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/****************** MEDIA QUERIES *********************************************************/
+
+@media (min-width: 640px){
+
+    /***** Languages bar *****/
+
+    #inicioC, #inicioC__idioma {
+        background-color: black;
+        display: flex;
+        font-size: 10px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    /***** Header nav *****/
+
+    .triple {
+        display: none}
+
+    #inicioC__nav {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0px 50px;
+        
+    }
+ /***** img principal*****/
+
+    #img_principal{
+        height: 400px;
+        justify-content: center;
+    }
+
+    /***** tarjetas*****/
+
+    /********** INTRO PRODUCTOS DESTACADOS **********/
+
+#productos_destacados span{
+    font-size: 48px;
+}
+
+#productos_destacados a{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/******** Section Cards *********/
+.tarjetas{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card{
+    width: 400px;
+}
+
+select{
+        background-color: black;
+        border-style: none;
+        color: #F3F3F3;
+        font-size: 18px;
+}
+
+    button:hover{
+        background-color: #8A8787;
+        border-style: none;
+        color: #fff;
+    }
+
+    /* contacto*/
+
+    #tit_contacto {
+        font-size: 25px;}
+/* SUSCRIPCION*/
+
+#suscripcion {
+    flex-direction: row;
+}
+}
